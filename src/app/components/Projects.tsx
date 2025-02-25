@@ -51,7 +51,7 @@ const projects = [
       "Handling file uploads and storage",
     ],
     demoUrl: "https://damadash.com",
-    githubUrl: "https://github.com/DevHoji/Backend",
+    githubUrl: "",
   },
   {
     id: 5,
