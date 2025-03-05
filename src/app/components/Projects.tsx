@@ -154,33 +154,32 @@ const projects = [
   },
   {
     id: 9,
-    title: "AI-Powered Career Mentor",
+    title: "AI-Powered Resume",
     description:
-      "A full-stack application providing personalized career guidance and learning recommendations using the Google Gemini API and Coursera API.",
+      "A Next.js-based application that evaluates resumes and provides AI-driven feedback, including personalized improvement suggestions and a score out of 100 based on predefined rating guidelines.",
     image: "/images/myimages/Ai.jpeg", // Replace with an actual image
     technologies: [
+      "Next.js",
       "React",
-      "FastAPI",
-      "Google Gemini API",
-      "Whisper API",
-      "Coursera API",
-      "SQLite",
+      "Tailwind CSS",
+      "AI-based Resume Evaluation",
     ],
     keyFeatures: [
-      "Interactive chatbot for career advice",
-      "Speech-to-text input using Whisper API",
-      "Personalized learning recommendations from Coursera",
-      "User profile management",
+      "AI-powered resume analysis and feedback",
+      "Custom scoring system with rating guidelines",
+      "Personalized suggestions for improvement",
+      "User-friendly interface with real-time updates",
     ],
     technicalChallenges: [
-      "Integrating multiple external APIs (Gemini, Whisper, Coursera)",
-      "Implementing a robust backend with FastAPI",
-      "Designing a responsive and user-friendly React frontend",
-      "Managing API key security and rate limiting",
+      "Developing an AI-based scoring and feedback mechanism",
+      "Ensuring accurate and context-aware resume evaluation",
+      "Building a responsive UI with Tailwind CSS",
+      "Optimizing performance with Next.js",
     ],
-    demoUrl: "https://ai-powered-mentor-front.vercel.app/", // Add demo URL when available
-    githubUrl: "https://github.com/DevHoji/-AI-Powered-Career-Mentor-", // Add GitHub URL when available
+    demoUrl: "https://ai-powered-resume-screener.vercel.app/", // Add demo URL when available
+    githubUrl: "https://github.com/DevHoji/AI-Powered-Resume-Screener", // Add GitHub URL when available
   },
+
   {
     id: 10,
     title: "RAG Chatbot with Gemini API",
